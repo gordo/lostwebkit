@@ -1,0 +1,129 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8"> 
+		<meta name="author" content="Gordon Mei" /> 		
+		<title>Lost - Studio Gordon Mei - Labs</title>
+		<style type="text/css">
+			* {margin:0; padding:0; font:normal 14pt "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue","Helvetica","Arial",sans-serif; font-weight:300;}	
+			body {padding:10em 4em 4em 20em; background-color:#000;}
+			a:link, a:visited, a:focus, a:active {color:#009aff; text-decoration:none;}
+			a:hover {color:#ff5c80; text-decoration:line-through;}
+			
+			#moveit {
+				opacity:0.6;
+				-webkit-transform:rotate(5deg) translate(700px, 300px) skew(0deg, 15deg) scale(2.0);
+				-webkit-transform-origin:50% 50%;
+				
+				/*
+				-moz-transform:rotate(5deg) translate(50px, 50px) skew(0deg, 15deg) scale(1.00);
+				-moz-transform-origin:50% 50%;
+			 		 
+			    -o-transform:translate(100px) rotate(40deg); 
+			    -o-transform-origin:60% 100%;
+	
+				transform:rotate(5deg) translate(700px, 300px) skew(0deg, 15deg) scale(2.0);
+				transform-origin:50% 50%;
+				*/
+	
+				-webkit-animation-name:fade;
+				-webkit-animation-duration:15s;
+				-webkit-animation-iteration-count:1;
+				
+				/* The typeface on LOST is inconsistent, but it looks like Futura as my best guess. */
+				font:normal 72pt "Futura","Helvetica","Arial",sans-serif;
+				color:#ccc;
+				text-transform:uppercase;
+				text-shadow:#ccc 2px 2px 20px;
+			}
+	
+			@-webkit-keyframes fade {
+				0%   {
+					opacity:0.1;
+					-webkit-transform: rotate(0deg) translate(0px, 0px) skew(0deg, -10deg) scale(1);
+					-webkit-animation-timing-function:ease-in;
+				}
+				10%  {
+					opacity:0.2;
+					-webkit-transform: rotate(1deg) translate(70px, 40px) skew(0deg, 4deg) scale(1.1);
+					-webkit-animation-timing-function:ease-in;
+				}
+				20%  {
+					opacity:0.3;
+					-webkit-transform:rotate(1deg) translate(140px, 80px) skew(0deg, 6deg) scale(1.2);
+					-webkit-animation-timing-function:linear;
+				}
+				30%  {
+					opacity:0.4;
+					-webkit-transform:rotate(2deg) translate(210px, 120px) skew(0deg, 8deg) scale(1.3);
+					-webkit-animation-timing-function:linear;
+				}
+				40%  {
+					opacity:0.5;
+					-webkit-transform:rotate(3deg) translate(280px, 160px) skew(0deg, 9deg) scale(1.4);
+					-webkit-animation-timing-function:linear;
+				}
+				50%  {
+					opacity:0.6;
+					-webkit-transform:rotate(5deg) translate(350px, 200px) skew(0deg, 10deg) scale(1.5);
+					-webkit-animation-timing-function:linear;
+				}
+				60%  {
+					opacity:0.7;
+					-webkit-transform:rotate(5deg) translate(420px, 220px) skew(0deg, 11deg) scale(1.6);
+					-webkit-animation-timing-function:linear;
+				}
+				70%  {
+					opacity:0.8;
+					-webkit-transform:rotate(5deg) translate(490px, 240px) skew(0deg, 12deg) scale(1.7);
+					-webkit-animation-timing-function:linear;
+				}
+				80%  {
+					opacity:0.9;
+					-webkit-transform:rotate(5deg) translate(560px, 260px) skew(0deg, 13deg) scale(1.8);
+					-webkit-animation-timing-function:linear;
+				}
+				90%  {
+					opacity:1.0;
+					-webkit-transform:rotate(5deg) translate(630px, 280px) skew(0deg, 14deg) scale(1.9);
+					-webkit-animation-timing-function:linear;
+				}
+				100% {
+					opacity:0.8;
+					-webkit-transform:rotate(5deg) translate(700px, 300px) skew(0deg, 15deg) scale(2.0);
+					-webkit-animation-timing-function:ease-out;
+				}
+			}
+	
+			#sosumi {position:absolute; bottom:0; right:0; margin:1em; font-size:10pt; color:#ccc;}
+			#sosumi a {font-size:10pt;}		
+		</style>
+		<link rel="shortcut icon" href="../../favico.png" type="image/png" /> 
+	</head>
+	<body>
+
+		<div id="moveit">Lost</div>
+		
+		<div id="sosumi">2010. <a href="http://www.monstercyb.org/gordon/lab">Monstercyb.org</a>. A part of the <a href="http://www.ocf.berkeley.edu/~gordeon">GordeonBleu</a> network. <a href="http://abc.go.com/shows/lost">LOST</a> and all related trademarks belong to ABC.</div>
+		
+		<audio src="lost-intro-credits.mp3" autoplay> 
+			<source src="lost-intro-credits.mp3" type="audio/mp3" />		
+			<source src="lost-intro-credits.ogg" type="audio/ogg" />
+		</audio> 		
+
+
+		<!--Created: 2010 March 19-->
+
+		<script type="text/javascript"> 
+			var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+			document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+			</script> 
+			<script type="text/javascript"> 
+			try {
+			var pageTracker = _gat._getTracker("UA-299058-9");
+			pageTracker._trackPageview();
+			} catch(err) {}
+		</script>
+
+	</body>
+</html>
